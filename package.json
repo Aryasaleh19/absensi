@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "hls.js": "^1.4.13"
+  },
+  "name": "coba-iptv",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
